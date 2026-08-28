@@ -79,7 +79,7 @@ namespace Lab02
             string bossName2 = "Rathalos";
             char Tier = 'A';
             string element = "Fire"; 
-            int size = 200;
+            int size = 150;
             int damage = 40;
             double ragecrit = 1.25;
             float HP = 4500f;
