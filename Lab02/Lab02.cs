@@ -1,13 +1,10 @@
 ﻿//1690702012 Jirawich Wongthong SEC129C
-//Sorry I need to redo all of this because I forget to rename the file
 namespace Lab02
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string reason = "I forgot to rename the file please check the lastest Lab02.cs file";
-            string Answer = "Yes";
             string bossName = "Kirin";
             char rank = 's';
             int level = 7;
@@ -16,11 +13,6 @@ namespace Lab02
             float attackpower = 42.5f;
             double critmultiplier = 1.75;
             bool isboss = true;
-
-            Console.WriteLine("===My Apology===");
-            Console.WriteLine($"Reason: {reason}");
-            Console.WriteLine($"Do I feel sorry? {Answer}");
-            Console.WriteLine($"Time of Edit: 04:25 AM 29/08/2026");
 
             Console.WriteLine("===BOSS STATUS: INITIAl===");
             Console.WriteLine($"Name: {bossName}");
