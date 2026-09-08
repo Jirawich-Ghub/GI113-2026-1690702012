@@ -47,7 +47,7 @@ namespace Lab04
             Console.WriteLine("+------------------------------+");
             Console.Write("Enter save name: ");
             string saveName = Console.ReadLine();
-            Console.Write("Choose save slot (1-3): ");
+            Console.Write("Choose save slot (1-3): ");  
             bool slotOk = int.TryParse(Console.ReadLine(), out int slot);
             Console.WriteLine($"Save name: {saveName}");
             Console.WriteLine($"Valid input: {slotOk}");
